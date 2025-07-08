@@ -2,7 +2,7 @@
 
 Este projeto tem como objetivo praticar conceitos do ASP.NET Core, Entity Framework Core, arquitetura de código limpa e introdução a APIs REST.  
 
-Foi implementado um CRUD completo (Create, Read, Update e Delete) com o tema de jogos.
+O projeto implementa um CRUD completo (Create, Read, Update e Delete) com o tema de jogos.
 
 Nele, é possível cadastrar:
 - 🎮 Jogos
@@ -28,6 +28,16 @@ A funcionalidade final permite ao usuário **consultar jogos semelhantes** ao qu
 - Entity Framework Core
 - SQL Server Express
 - Swagger (Swashbuckle)
+- Abordagem Code-First
+
+## 🛢 Conexão com banco de dados
+## 🛢 Conexão com Banco de Dados
+
+A string de conexão está localizada no arquivo `appsettings.json`, no bloco `ConnectionStrings`.  
+Neste projeto, estou utilizando a autenticação integrada do SQL Server (Windows Authentication).
+
+Caso seja necessário modificar a conexão com o banco de dados (ex: usar usuário/senha), altere diretamente a string no `appsettings.json`.
+
 
 ## 📬 Endpoints Principais
 
