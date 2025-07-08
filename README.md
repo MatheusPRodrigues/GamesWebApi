@@ -30,7 +30,6 @@ A funcionalidade final permite ao usuário **consultar jogos semelhantes** ao qu
 - Swagger (Swashbuckle)
 - Abordagem Code-First
 
-## 🛢 Conexão com banco de dados
 ## 🛢 Conexão com Banco de Dados
 
 A string de conexão está localizada no arquivo `appsettings.json`, no bloco `ConnectionStrings`.  
